@@ -15,6 +15,4 @@ reader.on('line', (input) => {
 	console.log( countA, countC, countG, countT)
 });
 
-reader.close()
-
 // Expected output format: 20 12 17 21
